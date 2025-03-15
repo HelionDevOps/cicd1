@@ -1,5 +1,8 @@
 name: Multi-OS CI
-on: push
+
+on:
+  push
+
 jobs:
   test-multiple-os:
     runs-on: ${{ matrix.os }}
