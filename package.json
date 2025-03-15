@@ -1,8 +1,17 @@
 {
+  "name": "your-project-name",
+  "version": "1.0.0",
+  "description": "Your project description",
+  "main": "index.js",
+  "scripts": {
+    "build": "your-build-command"
+  },
+  "author": "your-name",
+  "license": "ISC",
+  "dependencies": {
+    // your dependencies here
+  },
   "devDependencies": {
-    "@eslint/js": "^9.22.0",
-    "eslint": "^9.22.0",
-    "eslint-plugin-react": "^7.37.4",
-    "globals": "^16.0.0"
+    // your devDependencies here
   }
 }
