@@ -1,7 +1,7 @@
 name: Env Variables
 
 on:
-  push
+  workflow_dispatch:
 
 jobs:
   env-vars:
